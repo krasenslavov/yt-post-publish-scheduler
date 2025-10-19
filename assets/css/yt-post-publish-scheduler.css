@@ -1,0 +1,520 @@
+/**
+ * YT Post Publish Scheduler - Styles
+ *
+ * @package YT_Post_Publish_Scheduler
+ * @version 1.0.0
+ */
+
+/* Meta box styles */
+.yt-pps-meta-box {
+	padding: 12px 0;
+}
+
+.yt-pps-meta-box p {
+	margin: 0 0 15px;
+}
+
+.yt-pps-meta-box label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.yt-pps-meta-box input[type="datetime-local"] {
+	width: 100%;
+	padding: 6px 8px;
+	font-size: 13px;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+}
+
+.yt-pps-meta-box input[type="datetime-local"]:focus {
+	border-color: #2271b1;
+	outline: none;
+	box-shadow: 0 0 0 1px #2271b1;
+}
+
+.yt-pps-meta-box .description {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #646970;
+	font-style: italic;
+}
+
+.yt-pps-meta-box #yt-pps-clear-schedule {
+	width: 100%;
+	margin-top: 5px;
+}
+
+/* Schedule info */
+.yt-pps-schedule-info {
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 1px solid #dcdcde;
+}
+
+.yt-pps-schedule-info p {
+	margin: 8px 0;
+	font-size: 13px;
+	color: #1d2327;
+}
+
+.yt-pps-schedule-info .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	vertical-align: middle;
+	color: #2271b1;
+}
+
+/* Settings page */
+.yt-pps-settings-page {
+	max-width: 1000px;
+}
+
+.yt-pps-settings-page h1 {
+	color: #1d2327;
+	margin-bottom: 20px;
+}
+
+.yt-pps-settings-page .form-table {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.yt-pps-settings-page .form-table tbody {
+	padding: 20px;
+	display: block;
+
+}
+
+.yt-pps-settings-page .form-table th {
+	width: 250px;
+	font-weight: 600;
+	color: #1d2327;
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+.yt-pps-settings-page .form-table td {
+	padding: 15px 10px;
+}
+
+.yt-pps-settings-page .form-table label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.yt-pps-settings-page .form-table input[type="checkbox"] {
+	margin: 0;
+}
+
+.yt-pps-settings-page .description {
+	margin-top: 8px;
+	font-size: 13px;
+	color: #646970;
+	line-height: 1.5;
+}
+
+/* Info boxes */
+.yt-pps-info-box {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.yt-pps-info-box h2 {
+	margin-top: 0;
+	font-size: 18px;
+	border-bottom: 2px solid #2271b1;
+	padding-bottom: 10px;
+	color: #1d2327;
+}
+
+.yt-pps-info-box table {
+	margin-top: 15px;
+}
+
+.yt-pps-info-box th {
+	background: #f6f7f7;
+	font-weight: 600;
+	padding: 10px;
+	text-align: left;
+}
+
+.yt-pps-info-box td {
+	padding: 10px;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.yt-pps-info-box tr:last-child td {
+	border-bottom: none;
+}
+
+/* Status badges */
+.yt-pps-status-success {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.yt-pps-status-error {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.yt-pps-status-pending {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #fff3cd;
+	color: #856404;
+	border: 1px solid #ffeeba;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+/* Admin columns */
+.yt-pps-column-schedule {
+	font-size: 12px;
+	line-height: 1.6;
+	margin: 2px 0;
+}
+
+.yt-pps-column-schedule .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.yt-pps-column-schedule .dashicons-arrow-down-alt {
+	color: #d63638;
+}
+
+.yt-pps-column-schedule .dashicons-arrow-up-alt {
+	color: #2ecc71;
+}
+
+/* Validation messages */
+.yt-pps-error {
+	color: #d63638;
+	font-size: 12px;
+	margin-top: 4px;
+	display: block;
+}
+
+.yt-pps-warning {
+	color: #dba617;
+	font-size: 12px;
+	margin-top: 4px;
+	display: block;
+}
+
+.yt-pps-success {
+	color: #00a32a;
+	font-size: 12px;
+	margin-top: 4px;
+	display: block;
+}
+
+/* Loading state */
+.yt-pps-loading {
+	opacity: 0.6;
+	pointer-events: none;
+	position: relative;
+}
+
+.yt-pps-loading::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin: -10px 0 0 -10px;
+	border: 2px solid #f3f3f3;
+	border-top: 2px solid #2271b1;
+	border-radius: 50%;
+	animation: yt-pps-spin 0.8s linear infinite;
+}
+
+@keyframes yt-pps-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Responsive design */
+@media screen and (max-width: 782px) {
+
+	.yt-pps-settings-page .form-table th,
+	.yt-pps-settings-page .form-table td {
+		display: block;
+		width: 100%;
+		padding: 10px;
+	}
+
+	.yt-pps-settings-page .form-table th {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.yt-pps-meta-box input[type="datetime-local"] {
+		font-size: 16px;
+		/* Prevent zoom on iOS */
+	}
+
+	.yt-pps-info-box table,
+	.yt-pps-info-box thead,
+	.yt-pps-info-box tbody,
+	.yt-pps-info-box th,
+	.yt-pps-info-box td,
+	.yt-pps-info-box tr {
+		display: block;
+	}
+
+	.yt-pps-info-box thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.yt-pps-info-box td {
+		border: none;
+		position: relative;
+		padding-left: 40%;
+	}
+
+	.yt-pps-info-box td:before {
+		position: absolute;
+		left: 10px;
+		width: 35%;
+		padding-right: 10px;
+		white-space: nowrap;
+		font-weight: 600;
+	}
+}
+
+/* Accessibility */
+button:focus,
+input:focus,
+select:focus {
+	outline: 2px solid #2271b1;
+	outline-offset: 2px;
+}
+
+/* Animations */
+@keyframes yt-pps-fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(-5px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.yt-pps-schedule-info {
+	animation: yt-pps-fade-in 0.3s ease-out;
+}
+
+/* Print styles */
+@media print {
+	.yt-pps-meta-box #yt-pps-clear-schedule {
+		display: none;
+	}
+}
+
+/* Highlight scheduled posts */
+.post-type-post .yt-pps-scheduled,
+.post-type-page .yt-pps-scheduled {
+	background-color: #f0f6fc;
+}
+
+/* Date picker customization */
+.ui-datepicker {
+	font-size: 13px;
+}
+
+.ui-datepicker-calendar td {
+	padding: 2px;
+}
+
+.ui-datepicker-calendar td a {
+	padding: 4px;
+	text-align: center;
+}
+
+/* Tooltip */
+.yt-pps-tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.yt-pps-tooltip .yt-pps-tooltip-text {
+	visibility: hidden;
+	width: 200px;
+	background-color: #1d2327;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	padding: 8px;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -100px;
+	opacity: 0;
+	transition: opacity 0.3s;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+.yt-pps-tooltip:hover .yt-pps-tooltip-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* Help text */
+.yt-pps-help-text {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #2271b1;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 16px;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: help;
+	margin-left: 4px;
+}
+
+.yt-pps-help-text:hover {
+	background: #135e96;
+}
+
+/* Empty state */
+.yt-pps-empty-state {
+	text-align: center;
+	padding: 40px 20px;
+	color: #646970;
+}
+
+.yt-pps-empty-state .dashicons {
+	width: 64px;
+	height: 64px;
+	font-size: 64px;
+	opacity: 0.3;
+	margin-bottom: 15px;
+}
+
+.yt-pps-empty-state p {
+	font-size: 15px;
+	margin: 0;
+}
+
+/* Success message animation */
+@keyframes yt-pps-success-pulse {
+
+	0%,
+	100% {
+		background-color: #d4edda;
+	}
+
+	50% {
+		background-color: #b9e5c4;
+	}
+}
+
+.yt-pps-status-success.yt-pps-pulse {
+	animation: yt-pps-success-pulse 0.5s ease-out;
+}
+
+/* Notification badge */
+.yt-pps-notification-badge {
+	display: inline-block;
+	background: #d63638;
+	color: #fff;
+	border-radius: 10px;
+	padding: 2px 6px;
+	font-size: 10px;
+	font-weight: 600;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+/* Timeline view (optional enhancement) */
+.yt-pps-timeline {
+	position: relative;
+	padding-left: 30px;
+	margin-top: 15px;
+}
+
+.yt-pps-timeline::before {
+	content: '';
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: #dcdcde;
+}
+
+.yt-pps-timeline-item {
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.yt-pps-timeline-item::before {
+	content: '';
+	position: absolute;
+	left: -26px;
+	top: 5px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #2271b1;
+	border: 2px solid #fff;
+}
+
+.yt-pps-timeline-item.unpublish::before {
+	background: #d63638;
+}
+
+.yt-pps-timeline-item.republish::before {
+	background: #00a32a;
+}
