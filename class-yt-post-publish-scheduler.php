@@ -3,7 +3,7 @@
  * Plugin Name: YT Post Publish Scheduler
  * Plugin URI: https://github.com/krasenslavov/yt-post-publish-scheduler
  * Description: Schedule posts to automatically unpublish and republish at specified dates. Perfect for seasonal content, time-limited offers, and recurring announcements. Uses WordPress cron for reliable scheduling.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: Krasen Slavov
